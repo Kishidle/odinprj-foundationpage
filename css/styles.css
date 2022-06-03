@@ -34,7 +34,11 @@ a, a:hover, a:focus, a:active {
     margin-right: 0px;
 }
 
-.header-img,
+.header-img{
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
 .hero-subtext,
 .signup-button button,
 .placeholder-text,
