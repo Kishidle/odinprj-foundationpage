@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 a, a:hover, a:focus, a:active {
@@ -10,7 +10,7 @@ a, a:hover, a:focus, a:active {
     color: inherit;
 }
 .header-container{
-    border: 1px solid red;
+    
     background-color: #1F2937;
     display: flex;
     color: #F9FAF8;
@@ -19,7 +19,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .header{
-    border: 1px solid green;
+    
     display: flex;
     justify-content: space-between;
     width: 1200px;
@@ -36,28 +36,32 @@ a, a:hover, a:focus, a:active {
 
 .header-img,
 .hero-subtext,
-.signup-button button{
+.signup-button button,
+.placeholder-text,
+.signup-sub-text,
+.footer-text{
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .hero-container{
-    border: 1px solid yellow;
+    
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 435px;
     padding: 100px;
 }
 
 .hero{
-    border: 1px solid purple;
+    
     display: flex;
     width: 1200px;
     justify-content: space-between;
 }
 .hero-paragraph{
-    width: 600px;
+    width: 500px;
+    
 }
 .hero-text{
     color: #F9FAF8;
@@ -65,12 +69,12 @@ a, a:hover, a:focus, a:active {
     font-weight: 800;
 }
 .hero-subtext{
-    width: 500px;
+    width: 450px;
     margin-bottom: 10px;
 }
 
 .placeholder{
-    border: 1px solid white;
+    
     display: flex;
     width: 600px;
     background-color: gray;
@@ -78,15 +82,112 @@ a, a:hover, a:focus, a:active {
     justify-content: center;
 }
 
+
 .signup-button button{
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     background-color: #3882F6;
-    width: 120px;
-    height: 35px;
+    width: 140px;
+    height: 40px;
 }
 
 .random-information-container{
     display: flex;
     justify-content: center;
+    height: 450px;
+   
 }
+.random-information{
+    
+    width: 900px;
+}
+.random-title{
+    padding: 40px 0px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+.random-item{
+    
+    padding: 15px 0px;
+    /*flex unordered list going from left to right? */
+    display: flex;
+    flex-direction: row;
+}
+
+.random-box{
+    margin: 0px 34px;
+    width: 500px;
+    height: 250px;
+}
+.random-image{
+    
+    border: 1px solid #3882F6;
+    border-radius: 12px;
+    border-width: medium;
+    height: 140px;
+    margin-bottom: 5px;
+}
+.random-subtext{
+    text-align: center;
+    
+}
+.inspiring-container{
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.inspiring-quote{
+    
+    width: 825px;
+}
+.inspiring-text{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+.inspiring-name{
+    font-size: 24px;
+    text-align: right;
+    margin-right: 40px;
+    
+}
+
+.signup-container{
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box{
+    display: flex;
+    border-radius: 10px;
+    background-color: #3882F6;
+    height: 150px;
+    width: 1200px;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+.signup-main-text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.signup-button.calltoaction-button button{
+    
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+}
+.footer-container{
+    display: flex;
+    background-color: #1F2937;
+    height: 115px;
+    justify-content: center;
+    align-items: center;
+}
+
